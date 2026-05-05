@@ -1,8 +1,7 @@
+public_html/
+
 # Environment variables
 .env
-
-# WordPress content (uncomment if you don't want to track wp-content)
-# wp-content/
 
 # Logs
 *.log
@@ -15,5 +14,3 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
-
-public_html/
