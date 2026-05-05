@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# WordPress content (uncomment if you don't want to track wp-content)
+# wp-content/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+public_html/
