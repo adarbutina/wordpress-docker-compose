@@ -15,9 +15,7 @@ A simple, production-ready Docker Compose setup for WordPress development with M
 
 ## Quick Start
 
-1. **Configure environment variables** (optional but recommended)
-
-The `.env` file already has working defaults. For any non-throwaway use, change the passwords:
+1. **Configure environment variables**
 
 ```bash
 cp .env.example .env
