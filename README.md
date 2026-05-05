@@ -1,4 +1,4 @@
-# WordPress Docker
+# WordPress Docker Compose
 
 A simple, production-ready Docker Compose setup for WordPress development with MySQL and phpMyAdmin.
 
