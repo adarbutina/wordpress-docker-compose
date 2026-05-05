@@ -61,20 +61,6 @@ docker compose restart wordpress
 docker compose exec wordpress bash
 ```
 
-## Project Structure
-
-```
-wordpress-docker/
-├── docker-compose.yml    # Service definitions
-├── .env                  # Your config (not committed)
-├── .env.example          # Template for .env
-├── .gitignore
-├── README.md
-└── wp-content/           # Themes, plugins, uploads (mounted into container)
-```
-
-The `wp-content` directory is bind-mounted, so themes and plugins you drop in there appear immediately in WordPress. The rest of the WordPress core lives in a named volume (`wordpress_data`).
-
 ## Customization
 
 - **Change ports**: edit `WORDPRESS_PORT` and `PHPMYADMIN_PORT` in `.env`
